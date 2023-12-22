@@ -354,6 +354,7 @@ td{
 /* Aqui estou começando a sessão de número 4! */
 
 section.sessao4{
+	width: 100%;
 	height: auto;
 	min-height: 400px;
 	background-color: rgb(26 33 70);
@@ -370,14 +371,14 @@ section.sessao4 h2{
 .sessao4 .btn-wrapper{
 	width: 70%;
 	margin:0 auto ;
+	text-align: center;
 	/* background-color: #000000; */
 }
 
 .sessao4 .btn-wrapper div{
-	width: 100%;
+	width: 33%;
 	height: 30px;
-	text-align: center;
-	display: block;
+	display: inline-block;
 	/* background-color: #0234be; */
 }
 
