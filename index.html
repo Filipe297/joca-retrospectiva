@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Retrospectiva do joka</title>
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<link rel="icon" href="/imagens/logo_jj.webp" type="image/x-icon">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+	<meta charset="utf-8" />
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0" />
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-90385616-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+	<style>
+		#ps{
+			width: 240px;
+			padding: 5px 2px;
+		}
+		#lupa{
+			width: 100px;
+			padding: 5px 0px;
+			cursor: pointer;
+		}
+		.erro{
+			width:30%;
+			padding: 20px;
+			font-size: 18px;
+			position:fixed; top: -90vh; right: 35%;
+			border-radius: 30px;
+			transition: 1s;
+		}
+	</style>
+</head>
+<body>
+
+<header>
+	<div class="container">
+	<div class="chamadadarking">
+	<div class="logo"> <img src="/imagens/logo_jj.webp" style=" margin: 35px; width: 110px; border: 1px solid white;"></div> <br>
+	
+	<nav class="desktop-menu" style="position: absolute; right:0; top:0;">
+		<div style="display: inline-block; padding-right: 100px;">
+			<form action="" >
+				<input type="text" id="ps" name="mensagem" placeholder="Digite um comando do chat"><input id="lupa" type="submit" value="Pesquisar!">
+			</form>
+		</div>
+			<ul style="display: inline-block;">
+				<li><a href="#contato">Contato</a></li>
+				<li><a href="#Mensagem">Loja</a></li>
+				<li><a href="/imagens/homer.webp">Homer</a></li>
+			</ul>
+	</nav>
+	<nav class="mobile-menu-btn"></nav>
+	<nav class="mobile-menu">
+		<ul>
+			<li><a href="#contato">Contato</a></li>
+			<li><a href="#Mensagem">Mensagem</a></li>
+			<li><a href="">Home</a></li>
+		</ul>
+	</nav>
+
+	<div class="clear"></div><!--clear-->
+
+	<div class="chamada1">
+		<h2></h2><!--<br />
+		Para Empresas Autênticas--></h2>
+		<p></p>
+	</div><!--chamada1-->
+	</div>
+	</div><!--container-->
+</header>
+<span class='erro' style='top:-100vh;'><img src="/imagens/filipinho.webp" alt=""> </span>
+<section id="Mensagem" class="sessao1">
+	<div class="container">
+		<section class="mosaico">
+			<br>
+			<table width="500">
+				<tr>
+					<th scope="col">Nome</th>
+					<th scope="col">Descrição</th>
+					<th scope="col">Custo</th>
+				</tr>
+			
+				<tr>
+					<td style="width: 240px; text-align: center;"><img src="/imagens/sla.gif" style="width: 140px;"><br> Povo do chat</td>
+					<td>Bando de vagabundo miseravel que gosta do joca. Eu não, odeio ele!! e todos que acompanham!! Adquira um - inclui mod - que vale menos ainda se incluir mods eu te dou 1 cryptojocas</td>
+					<td style="width: 140px;">0 cryptojocas 😡 <br><br><br><span onclick="alerta('Povo do chat')" style="background-color: rgb(83, 248, 166); cursor: pointer; padding: 5px;" >Comprar</span> </td>
+				</tr>
+			
+				<tr>
+					<td style="width: 240px; text-align: center;">	<div class="logo  logo0" onclick="evento(0)" style="background-image: url('../imagens/gato2.webp'); cursor: pointer;" ></div> <br> Gata Cleide</td>
+					<td>Uma gata que mia quando você aperta nela, não mia tanto quanto o gato Tico porque Tico mia muito. RIP Cleidinha você vive em nossos corações</td>
+					<td style="width: 140px;">01001101 01101001 01100001 01110101 cryptojocas <br><br><span onclick="alerta('Gata Cleide')" style="background-color: rgb(83, 248, 166); cursor: pointer; padding: 5px;" >Comprar</span> </td>
+				</tr>
+				
+				<tr>
+					<td style="width: 240px; text-align: center;"><img src="/imagens/jocarisadas.webp" style="width: 140px;"><br> 1 piada ruim </td>
+					<td>Joca vai em sua casa e conta uma piada ruim <br> Exemplo: Qual o método de transporte do Joca? Jocarroça! <br> para mais dessas só comprar mas o resto só quando ele chegar na sua casa </td>
+					<td style="width: 140px;">666 cryptojocas <br><br><br><span onclick="alerta('1 piada ruim')" style="background-color: rgb(83, 248, 166); cursor: pointer; padding: 5px;" >Comprar</span> </td>
+				</tr>
+
+				<tr>
+					<td style="width: 240px; text-align: center;"><img src="/imagens/lagrima.webp" style="width: 140px;"><br> 1 discurso emocional </td>
+					<td>Joca vai em sua casa e faz um discurso emocional <br> Exemplo: Se tá ruim poderia ser pior poderia ser comigo. <br> Para mais desses só comprar. mas o resto só quando ele chegar na sua casa </td>
+					<td style="width: 140px;">500 cryptojocas <br><br><br><span onclick="alerta('1 discurso emocional')" style="background-color: rgb(83, 248, 166); cursor: pointer; padding: 5px;" >Comprar</span> </td>
+				</tr>
+
+				<tr>
+					<td style="width: 240px; text-align: center;">	<div class="logo onb" onclick="evento(1)" style="background-image: url('../imagens/onibos2.webp'); cursor: pointer;" ></div> <br> Caminhão</td>
+					<td>Um caminhão para passear nas sextas-feiras quando clicado vira uma ônibus <br> cuidado com crianças no seu ônibus</td>
+					<td style="width: 140px;">113 cryptojocas  <br><br><br><span onclick="alerta('Caminhão')" style="background-color: rgb(83, 248, 166); cursor: pointer; padding: 5px;" >Comprar</span> </td>
+				</tr>
+
+				<tr>
+					<td style="width: 240px; text-align: center;">	<img src='../imagens/epaminonda.webp' style="width: 140px;"/> <br> Epaminondas</td>
+					<td> O elusivo epaminondas uma mistura de galinha com pombo parece com algumas pessoas compre o seu</td>
+					<td style="width: 140px;">90 cryptojocas  <br><br><br><span onclick="alerta('Epaminondas')" style="background-color: rgb(83, 248, 166); cursor: pointer; padding: 5px;" >Comprar</span> </td>
+				</tr>
+
+				<tr>
+					<td style="width: 240px; text-align: center;">	<img src='../imagens/joca.webp' style="width: 140px;"/> <br> Joca Rocha</td>
+					<td> Um dos jocas da @desenhandojoca (tem mais de 500). </td>
+					<td style="width: 140px;">2 cryptojocas  <br><br><br><span onclick="alerta('Joca Rocha')" style="background-color: rgb(83, 248, 166); cursor: pointer; padding: 5px;" >Comprar</span> </td>
+				</tr>
+			</table>
+		</section><!--mosaico-->
+			<div class="clear"></div>
+	</div><!--container-->
+	<div class="clear"></div>
+</section><!--sessao1-->
+
+<section class="sessao2">
+	<div class="container">
+		<h2>balblablalblablablalbalb 😁</h2>
+		<p>blablablalbalbalblablalbalblablalbalbalblablablalbalbalblablalbalbalblablalbalblablalbalblablablalbalb
+		</p>
+		<!-- <img src="imagens/mockup.jpg" /> -->
+		<div class="clear"></div>
+	</div><!--container-->
+</section><!--sessao2-->
+
+<section class="sessao3">
+	<div class="container">
+		<!-- <div class="icone-seta"></div> -->
+		
+	</div><!--container-->
+</section><!--sessao3-->
+
+<section class="we" style="background-color:#edf10f ;">
+	<div class="container">
+		<h3 style="padding-bottom: 30px;">blalbalblablalbalblablablalbalb</h3>
+		<audio src="/imagens/audio (1).ogg" controls>
+			O seu navegador não suporta o elemento <code>audio</code>.
+		  </audio>
+	</div><!--container-->
+</section><!--sessaowe-->
+
+<section class="we">
+	<div class="container">
+		<h2>Quem somos nós!</h2>
+		<img src="/imagens/jovens.jpg"/>
+		<p style="margin: 0 auto; width: 90%;">blablablalbalbalblablalbalblablalbalbalblablablalbalbalblablalbalbalblablalbalblablalbalblablablalbalb</p>
+		<!-- <img src="imagens/mockup.jpg" /> -->
+		<div class="clear"></div>
+	</div><!--container-->
+</section><!--sessaowe-->
+
+<section id="contato" class="sessao4">
+		<h2>Nos siga em nossas redes sociais</h2>
+		<div class="btn-wrapper">
+			<div>
+				<a href="http://www.instagram.com/jovens_mangueira" target="_blank"><div class="icone" style="background-image: url(/imagens/icones/instagram.png);"></div></a>
+				<a href="http://www.instagram.com/iasd.mangueira7" target="_blank" style="margin: 0 16px;"><div class="icone" style="background-image: url(/imagens/icones/instagram.png);"></div></a>
+				<a href="http://www.instagram.com/jovensadventistasbrasil" target="_blank"><div class="icone" style="background-image: url(/imagens/icones/instagram.png);"></div></a>
+			</div>
+		<div>
+			<h2></h2>
+		<div class="btn-wrapper">
+			<div>
+				<a href="https://www.google.com/maps/place/Beco+da+estrovenga/@-8.2254824,-34.9453549,17z/data=!3m1!4b1!4m6!3m5!1s0x7aae7844b9dbf13:0x74c0fb7f28fb4b59!8m2!3d-8.2254824!4d-34.94278!16s%2Fg%2F11rtndt7b5?entry=ttu" target="_blank"><div class="iconeE" style="color: white;"> Nos faça uma visita <br> <span>faça um visita a nossa lojinha se não eu vou te exterminar seu maldito miseravel morra desgraça, não estou brincando</span> </div></a>
+			</div>
+
+		<div>
+		<div class="clear"></div>
+	</div><!--container-->
+</section><!--sessao4-->
+
+<footer>
+	<div class="container">
+		<img src="/imagens/iconeadole.jpg">
+		<p></p>
+		<p>blablablabla</p>
+		<p>blablal</p>
+		<div class="clear"></div>
+	</div><!--container-->
+</footer>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnv7y3NuVB3H7-6XXXbtFUYOsvWql_d-8&"></script>
+<script src="js/jquery.js"></script>
+<script src="js/jquery.ajaxform.js"></script>
+<script>
+	$(function(){
+
+		$('form').submit(function(){
+
+			if(formularioPreenchido()){
+					var form = $('form');
+					$('form').ajaxSubmit({
+						beforeSubmit:function(){
+							form.find('input[type=submit]').attr('disabled','true');
+							form.find('input[type=submit]').animate({'opacity':'0.4'})
+							form.find('input[type=submit]').attr('value','Carregando');
+
+						},
+						success:function(data){
+							//Aqui você pode inserir uma div, por exemplo.
+							//Qualquer mensagem de sucesso, após o formulario ter sido enviado.
+							alert('Formulário foi enviado com sucesso!');
+							form.find('input[type=submit]').removeAttr('disabled');
+							form.find('input[type=submit]').animate({'opacity':'1'})
+							form.find('input[type=submit]').attr('value','Enviar');
+							form[0].reset();
+						}
+					});
+			}else{
+				//alert("Campos Vázios não são permitidos!");
+			}
+			return false;
+		})
+
+		function formularioPreenchido(){
+			// var nome = $('[name=nome]').val();
+			// var email = $('[name=email]').val();
+			// var telefone = $('[name=telefone]').val();
+			var mensagem = $('[name=mensagem]').val();
+			if( mensagem == ''){
+				return false;
+			}else{
+				if (mensagem == "!escala 0") {
+					$(".chamadadarking").css({"background-size":"10%"})
+				}else if (mensagem == "!escala 1") {
+					$(".chamadadarking").css({"background-size":"contain"})
+				}else if (mensagem == "!cocontagem") {
+					var html = $(".chamadadarking").html();
+					$(".chamadadarking").html(html+"<img src='/imagens/coco.webp' style='width:200px; position:fixed; top: 140px; right: 40%;' />")
+				}else{
+					$(".erro").css({"top":"10vh"});
+					setTimeout(() => {
+						$(".erro").css({"top":"-90vh"});
+					}, 3000);
+				}
+			}
+		}
+	})
+
+</script>
+<script src="js/functions.js"></script>
+<script src="js/menu_responsivo.js"></script>
+<script src="js/menuScroll.js"></script>
+<!-- <script src="js/sliderEquipe.js"></script> -->
+</body>
+</html>
