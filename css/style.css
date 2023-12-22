@@ -186,7 +186,7 @@ section.sessao1{
 	width: 100%;
 	background-color: #9c04d8;
 	padding:0 2%;
-	height: 1900px;
+	height: 1500px;
 }
 
 section.sessao1 .container{
@@ -196,12 +196,12 @@ section.sessao1 .container{
 
 .texto-sessao1{
 	float: left;
-	width: 50%;
+	width: 90%;
 	position: relative;
 	left: 55px;
-	margin-top:60px;
-	padding-left: 80px;
-	color: rgb(0, 0, 0);
+	margin-top:100px;
+	padding-left: 40%;
+	color: gold;
 }
 
 .texto-sessao1 h2{
@@ -253,8 +253,13 @@ section.sessao1 .container{
 	height: 300px;
 	padding-left: 2%;
 	padding-right: 2%;
-	background-color:rgb(4, 65, 196);
-	text-align: center;
+	background-color:rgb(26 33 70);
+	text-align: left;
+
+	background-image: url('../imagens/cupons.webp');
+	background-repeat: no-repeat;
+	background-size: 40% 40%;
+	background-position: center top;
 }
 
 .sessao2 .container{
@@ -262,8 +267,8 @@ section.sessao1 .container{
 }
 
 .sessao2 h2{
-	color: #472663;
-	font-weight: 300;
+	font-weight: 300;text-align: center;
+	padding-top: 30px;
 }
 
 .sessao2 p{
@@ -351,7 +356,7 @@ td{
 section.sessao4{
 	height: auto;
 	min-height: 400px;
-	background-color: #edf10f;
+	background-color: rgb(26 33 70);
 	padding:20px 0;
 }
 
@@ -540,8 +545,7 @@ section.sessao1{
 
 .texto-sessao1{
 	width: 100%;
-	margin-top:0;
-	padding-left: 0;
+	padding-left: 1000px;
 	position: static; 
 	float: none;
 	display: inline-block;
