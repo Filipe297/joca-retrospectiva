@@ -475,6 +475,24 @@ footer img{
 		font-size: 15px;
 		margin-top:10px;
 	}
+
+	/* menu bt mobile */
+	nav.mobile-menu-btn{
+		top: -150px !important;
+	}
+	/*/////////////*/
+
+	/* mobile sessao 1 */
+
+	.texto-sessao1{
+		float: left;
+		width: 90%;
+		position: relative;
+		left: 55px;
+		margin-top:100px;
+		padding-left: 40%;
+		color: gold;
+	}
 }
 
 @media screen and (max-width: 768px){
@@ -574,14 +592,43 @@ section.sessao1{
 	padding-bottom: 70px;
 	padding-top: 60px;
 	height: auto;
-	background-color:rgb(44, 168, 252);
+	background-color:rgb(26, 33, 70);
+}
+
+
+.meninacupom{
+	width: 200px; 
+	position: absolute; 
+	top: 1810px !important; 
+	right: 10px !important;
+}
+
+.texto-sessao1{
+	padding-left: 40%;
+}
+
+.sessao4 .btn-wrapper {
+	display: inline-block;
+	margin: 0 auto;
+    margin-left: 50px;
+	padding-right: 10px;
 }
 
 section.sessao4 .container{
 	text-align: center;
 }
 
+.erro {
+	top: -900px !important;
+}
 
+.w100{
+	width: 100%;
+	display: inline-block;
+}
+.sumir{
+	display: none !important;
+}
 
 /* mosaico */
 
@@ -603,6 +650,10 @@ section.sessao4 .container{
 /* mosaico */
 
 @media screen and (max-width: 580px){
+	.sumir2{
+		display: none !important;
+	}
+
 	.part1{
 		width: 100%;
 		padding:40px 0;
