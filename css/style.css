@@ -650,6 +650,15 @@ section.sessao4 .container{
 /* mosaico */
 
 @media screen and (max-width: 580px){
+
+	.sessao4 .btn-wrapper {
+		display: inline-block;
+		margin: 0 auto;
+		margin-left: -10px;
+		padding-right: 10px;
+	}
+
+
 	.sumir2{
 		display: none !important;
 	}
