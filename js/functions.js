@@ -33,7 +33,7 @@ $(function(){ // comandos //
 		// var nome = $('[name=nome]').val();
 		// var email = $('[name=email]').val();
 		// var telefone = $('[name=telefone]').val();
-		var mensagem = $('[name=mensagem]').val();
+		var mensagem = $('.input-mensagem').val();
 		if( mensagem == ''){
 			return false;
 		}else{
