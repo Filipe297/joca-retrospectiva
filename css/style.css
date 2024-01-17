@@ -529,7 +529,8 @@ footer img{
 	}
 
 	#ps{
-		width: 190px !important;
+		width: 180px !important;
+		margin-left: -5px;
 		padding: 5px 2px;
 	}
 header{
